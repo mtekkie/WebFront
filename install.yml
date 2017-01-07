@@ -1,0 +1,16 @@
+---
+- hosts: localhost
+  vars:
+    hello: world
+  tasks:
+  - name: install the latest version of Apache
+    yum:
+      name: httpd
+      state: latest
+
+  - name: move http files to correct directory
+    copy:
+      src: /tmp/src/files/
+      dest: /var/www/html/
+      owner: nobody
+      mode: "u=rw,g=r,o=r"
