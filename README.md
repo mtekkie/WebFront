@@ -9,7 +9,7 @@ For using this with vagrant:
 ```
   mkdir webfront
   cd webfront
-  wget https://raw.githubusercontent.com/mtekkie/WebFront/master/_vagrant/Vagrantfile
+  curl -O  https://raw.githubusercontent.com/mtekkie/WebFront/master/_vagrant/Vagrantfile
   vagrant up
 ```
 
