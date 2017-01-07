@@ -11,6 +11,6 @@ For using this with vagrant:
   cd webfront
   wget https://raw.githubusercontent.com/mtekkie/WebFront/master/_vagrant/Vagrantfile
   vagrant up
-´´´
+```
 
-For using this with OSCP-S2I-Ansible-Builder: See that project. 
+For using this with OSCP-S2I-Ansible-Builder: See that project.
